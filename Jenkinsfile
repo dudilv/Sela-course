@@ -9,7 +9,8 @@ pipeline {
 
       }
       steps {
-        sh ''''''
+        sh '''npn install
+npn run build'''
       }
     }
   }
