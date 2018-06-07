@@ -9,8 +9,8 @@ pipeline {
 
       }
       steps {
-        sh '''npn install
-npn run build'''
+        sh '''npm install
+npm run build'''
       }
     }
   }
